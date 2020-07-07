@@ -25,9 +25,9 @@ To summarize some of the changes, as compared to MAM v0 (thanks to Michele Nati)
 - **Message sequencing** — In MAM v0, if you wanted to invalidate a message with a newer one, you needed to create a new channel, this increased the application level complexity. In IOTA Streams, you can amend previous messages in an existing channel, and while the older message remains in the Tangle to guarantee integrity, applications can directly retrieve only the newest, valid message. This makes replacing and changing information like credentials much simpler than before. You can update credentials linked to a digital identity, for example, without having to create a new channel and identity like you did with the previous MAM.
 
 
-To test some of the functionality yourself, see the **Streams repository** on our Github. As we progress with the implementation and finalize the functionality, we will be working on more comprehensive examples and scenarios in our documentation.
+To test some of the functionality yourself, see the **Streams [repository](https://github.com/iotaledger/streams)** on our Github. As we progress with the implementation and finalize the functionality, we will be working on more comprehensive examples and scenarios in our documentation.
 
-We’d like to take this opportunity to gather feedback, and then adjust the specification and implementation as necessary to then follow up with a full Rust and C implementations, as defined in our roadmap.
+We’d like to take this opportunity to gather feedback, and then adjust the specification and implementation as necessary to then follow up with a full Rust and C implementations, as defined in our [roadmap](https://roadmap.iota.org/).
 
 **We welcome you to have a look feedback and suggestions on our #streams-discussion channel on the IOTA Discord.**
 

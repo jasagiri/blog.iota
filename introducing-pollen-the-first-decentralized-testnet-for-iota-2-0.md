@@ -7,7 +7,7 @@ Follow
 Jun 30 · 6 min read
 
 
-After years of intensive research, rigorous testing, and tireless efforts by our engineers, we are proud to finally be able to invite everyone to participate in this momentous milestone for the IOTA project. Pollen marks the beginning of the world’s first truly decentralized, scalable, and fee-less Distributed Ledger, which has been IOTA’s promise since day one. Pollen is the first phase in IOTA’s three-part release strategy that will culminate in our coordinator-less, production-ready network: IOTA 2.0. Pollen is a rapidly developing research testbed where the community, researchers and engineers can test and validate the concepts of IOTA 2.0.
+After years of intensive research, rigorous testing, and tireless efforts by our engineers, we are proud to finally be able to invite everyone to participate in this momentous milestone for the IOTA project. Pollen marks the beginning of the world’s first truly decentralized, scalable, and fee-less Distributed Ledger, which has been IOTA’s promise since day one. Pollen is the first phase in IOTA’s [three-part release strategy](https://blog.iota.org/iota-2-0-introducing-pollen-nectar-and-honey-de7b9c4c8199) that will culminate in our coordinator-less, production-ready network: IOTA 2.0. Pollen is a rapidly developing research testbed where the community, researchers and engineers can test and validate the concepts of [IOTA 2.0](https://blog.iota.org/a-guide-to-upcoming-iota-2-0-coordicide-terminology-856872d7bbfc).
 
 You can download the new release and see the full changelog here.
 
@@ -31,13 +31,13 @@ Our interest in this testnet will focus on the overall behavior of the network r
 
 With this new release, we have introduced a new architecture, made up of three separate layers: the network, communication, and application layers. This new architecture will provide support for future features like Tokenization, Scalable Smart Contracts, Feeless dApps and Sharding.
 
-There are parallels between our layers and the top layers of the OSI model, though we caution the reader from deep comparisons. The network layer manages connections and packet transmission between nodes. The communication layer creates a standardized platform for storing and communicating information. Developers are then free to design decentralized applications on the application layer while abstracting away the lower layers. To learn more about this, you can refer to our “A Guide to Upcoming IOTA 2.0 Terminology” blogpost.
+There are parallels between our layers and the top layers of the OSI model, though we caution the reader from deep comparisons. The network layer manages connections and packet transmission between nodes. The communication layer creates a standardized platform for storing and communicating information. Developers are then free to design decentralized applications on the application layer while abstracting away the lower layers. To learn more about this, you can refer to our [“A Guide to Upcoming IOTA 2.0 Terminology”](https://blog.iota.org/a-guide-to-upcoming-iota-2-0-coordicide-terminology-856872d7bbfc) blogpost.
 
 Pollen’s core is comprised of these features:
 
 - **New Message Layout** — Each message contains the parents’ hashes, issuing information (issuing node ID, timestamp, etc), a payload, the PoW, a nonce and signature of the issuing node.
 
-- **Binary** — As everything is now binary, we have developed a new configurable Proof of Work (PoW) library that will, in future and iterative releases, shift towards our adaptive PoW mechanism. We have integrated support for traditional public-key cryptography based on elliptic curves (e.g., Ed25519 and BLS) as well as binary hash functions such as SHA-256, SHA-512 and Blake2b.
+- **Binary** — As everything is now binary, we have developed a new configurable Proof of Work (PoW) library that will, in future and iterative releases, shift towards our [adaptive PoW](https://blog.iota.org/whos-in-who-s-out-a-rate-control-algorithm-for-the-tangle-c7b5ecf85677) mechanism. We have integrated support for traditional public-key cryptography based on elliptic curves (e.g., Ed25519 and BLS) as well as binary hash functions such as SHA-256, SHA-512 and Blake2b.
 
 - **Ledger State & UTXO** — This GoShimmer version ships with a completely new ledger state based on an extended version of UTXO — the parallel-reality based ledger state. By decoupling consensus and the tracking of balances we enable an unmatched level of flexibility and massively reduce the message complexity by only voting on conflicts.
 
@@ -55,23 +55,23 @@ Pollen’s core is comprised of these features:
 
 - **Faucet app** — The GoShimmer dashboard ships with a Faucet section so that you can request tokens to a given address.
 
-- **Client library & API** — Testers, developers and node operators can interact with a GoShimmer node via its Client library and/or API. To learn more about this, you can refer to our wiki page.
+- **Client library & API** — Testers, developers and node operators can interact with a GoShimmer node via its Client library and/or API. To learn more about this, you can refer to our [wiki page](https://github.com/iotaledger/goshimmer/wiki/Client-Lib:-Interaction-with-layers).
 
-- **Analysis-server** — We have also improved the analysis server. This shows the overall network status and has a brand new section showing the overall network consensus — a real-time update on the FPC outcome on each conflict. These results are stored on a database so that, together with our community, we can gather enough experimental data to compare with our previous results obtained through simulations.
+- **Analysis-server** — We have also improved the analysis server. This shows the overall network status and has a brand new section showing the overall network consensus — a real-time update on the FPC outcome on each conflict. These results are stored on a database so that, together with our community, we can gather enough experimental data to compare with our previous results obtained through [simulations](https://arxiv.org/abs/1911.08787).
 
 We have written a wiki to give the community an opportunity to test out and learn more about this version of the Pollen Testnet:
 
 - Client Library
-- Interaction with layers (HTTP API)
+- [Interaction with layers (HTTP API)](https://github.com/iotaledger/goshimmer/wiki/Client-Lib:-Interaction-with-layers)
 - Tutorials
-- Setup a GoShimmer node
-- Setup monitoring dashboard
-- Writing a dApp
-- Obtain tokens from the faucet
-- Use the wallet library
+- [Setup a GoShimmer node](https://github.com/iotaledger/goshimmer/wiki/Setup-up-a-GoShimmer-node-(Joining-the-pollen-testnet))
+- [Setup monitoring dashboard](https://github.com/iotaledger/goshimmer/wiki/Setting-up-Monitoring-Dashboard)
+- [Writing a dApp](https://github.com/iotaledger/goshimmer/wiki/How-to-create-a-simple-dApp)
+- [Obtain tokens from the faucet](https://github.com/iotaledger/goshimmer/wiki/How-to-obtain-tokens-from-the-faucet)
+- [Use the wallet library](https://github.com/iotaledger/goshimmer/wiki/The-wallet-library)
 - Concepts
-- Glossary
-- Layers
+- [Glossary](https://github.com/iotaledger/goshimmer/wiki/Glossary)
+- [Layers](https://github.com/iotaledger/goshimmer/wiki/Layers)
 
 With our next major release, called Nectar, the remaining components (such as mana, rate control, adaptive PoW, just to mention a few) will be released onto our test network for a fully functional, incentivized testnet.
 

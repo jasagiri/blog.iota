@@ -7,7 +7,7 @@ Follow
 Jun 30 · 6 min read
 
 <!--
-After years of intensive research, rigorous testing, and tireless efforts by our engineers, we are proud to finally be able to invite everyone to participate in this momentous milestone for the IOTA project. Pollen marks the beginning of the world’s first truly decentralized, scalable, and fee-less Distributed Ledger, which has been IOTA’s promise since day one. Pollen is the first phase in IOTA’s three-part release strategy that will culminate in our coordinator-less, production-ready network: IOTA 2.0. Pollen is a rapidly developing research testbed where the community, researchers and engineers can test and validate the concepts of IOTA 2.0.
+After years of intensive research, rigorous testing, and tireless efforts by our engineers, we are proud to finally be able to invite everyone to participate in this momentous milestone for the IOTA project. Pollen marks the beginning of the world’s first truly decentralized, scalable, and fee-less Distributed Ledger, which has been IOTA’s promise since day one. Pollen is the first phase in IOTA’s [three-part release strategy](https://blog.iota.org/iota-2-0-introducing-pollen-nectar-and-honey-de7b9c4c8199) that will culminate in our coordinator-less, production-ready network: IOTA 2.0. Pollen is a rapidly developing research testbed where the community, researchers and engineers can test and validate the concepts of [IOTA 2.0](https://blog.iota.org/a-guide-to-upcoming-iota-2-0-coordicide-terminology-856872d7bbfc).
 -->
 何年にもわたる集中的な研究、厳格なテスト、エンジニアのたゆまぬ努力の末、ついにIOTAプロジェクトの記念すべきマイルストーンに皆様を招待できることを誇りに思います。Pollenは、IOTAが初日から約束していた、世界初の真に分散化され、スケーラブルで、手数料のかからない分散型台帳の始まりを示します。Pollenは、IOTAの[３つのリリース戦略](https://blog.iota.org/iota-2-0-introducing-pollen-nectar-and-honey-de7b9c4c8199)の第一段階で、コーディネーターレスで生産準備の整ったネットワーク、IOTA2.0を完成させます。Pollenは、コミュニティ、研究者、エンジニアがIOTA2.0のコンセプトをテストし、検証できる、急速に発展しているテスト環境です。
 
@@ -27,7 +27,7 @@ Today’s release includes the following main feature updates:
 本日のリリースで、以下のような主な機能のアップデートが行われています。
 
 <!--
-- Fast Probabilistic Consensus — IOTA’s new consensus algorithm for a decentralized network. You can read the research paper here.
+- Fast Probabilistic Consensus — IOTA’s new consensus algorithm for a decentralized network. You can read the [research paper here](https://arxiv.org/abs/1905.10895).
 
 - Value Transactions — network participants can now use an automated faucet to receive tokens, send value transactions (via a wallet) and test conflict resolution on the network.
 
@@ -63,7 +63,7 @@ With this new release, we have introduced a new architecture, made up of three s
 この新しいリリースでは、ネットワーク、通信、アプリケーションの3つのレイヤーで構成される新しいアーキテクチャを導入しました。この新しいアーキテクチャは、トークン化、スケーラブルなスマートコントラクト、Feeless dApps、シャーディングなどの将来の機能をサポートします。
 
 <!--
-There are parallels between our layers and the top layers of the OSI model, though we caution the reader from deep comparisons. The network layer manages connections and packet transmission between nodes. The communication layer creates a standardized platform for storing and communicating information. Developers are then free to design decentralized applications on the application layer while abstracting away the lower layers. To learn more about this, you can refer to our “A Guide to Upcoming IOTA 2.0 Terminology” blogpost.
+There are parallels between our layers and the top layers of the OSI model, though we caution the reader from deep comparisons. The network layer manages connections and packet transmission between nodes. The communication layer creates a standardized platform for storing and communicating information. Developers are then free to design decentralized applications on the application layer while abstracting away the lower layers. To learn more about this, you can refer to our [“A Guide to Upcoming IOTA 2.0 Terminology”](https://blog.iota.org/a-guide-to-upcoming-iota-2-0-coordicide-terminology-856872d7bbfc) blogpost.
 -->
 我々のレイヤーとOSIモデルのトップレイヤーの間には類似性がありますが、深い比較はしないよう注意してください。ネットワーク層は、ノード間の接続とパケット伝送を管理します。communication層は、情報の保存と通信のための標準化されたプラットフォームを作成します。開発者は、改装を抽象化しながら、アプリケーション層で分散型アプリケーションを自由に設計することができます。これについての詳細は、ブログ記事「[A Guide to Upcoming IOTA 2.0 Terminology](https://blog.iota.org/a-guide-to-upcoming-iota-2-0-coordicide-terminology-856872d7bbfc)」を参照してください。
 
@@ -72,7 +72,7 @@ Pollen’s core is comprised of these features:
 
 - **New Message Layout** — Each message contains the parents’ hashes, issuing information (issuing node ID, timestamp, etc), a payload, the PoW, a nonce and signature of the issuing node.
 
-- **Binary** — As everything is now binary, we have developed a new configurable Proof of Work (PoW) library that will, in future and iterative releases, shift towards our adaptive PoW mechanism. We have integrated support for traditional public-key cryptography based on elliptic curves (e.g., Ed25519 and BLS) as well as binary hash functions such as SHA-256, SHA-512 and Blake2b.
+- **Binary** — As everything is now binary, we have developed a new configurable Proof of Work (PoW) library that will, in future and iterative releases, shift towards our [adaptive PoW](https://blog.iota.org/whos-in-who-s-out-a-rate-control-algorithm-for-the-tangle-c7b5ecf85677) mechanism. We have integrated support for traditional public-key cryptography based on elliptic curves (e.g., Ed25519 and BLS) as well as binary hash functions such as SHA-256, SHA-512 and Blake2b.
 
 - **Ledger State & UTXO** — This GoShimmer version ships with a completely new ledger state based on an extended version of UTXO — the parallel-reality based ledger state. By decoupling consensus and the tracking of balances we enable an unmatched level of flexibility and massively reduce the message complexity by only voting on conflicts.
 
@@ -90,9 +90,9 @@ Pollen’s core is comprised of these features:
 
 - **Faucet app** — The GoShimmer dashboard ships with a Faucet section so that you can request tokens to a given address.
 
-- **Client library & API** — Testers, developers and node operators can interact with a GoShimmer node via its Client library and/or API. To learn more about this, you can refer to our wiki page.
+- **Client library & API** — Testers, developers and node operators can interact with a GoShimmer node via its Client library and/or API. To learn more about this, you can refer to our [wiki page](https://github.com/iotaledger/goshimmer/wiki/Client-Lib:-Interaction-with-layers).
 
-- **Analysis-server** — We have also improved the analysis server. This shows the overall network status and has a brand new section showing the overall network consensus — a real-time update on the FPC outcome on each conflict. These results are stored on a database so that, together with our community, we can gather enough experimental data to compare with our previous results obtained through simulations.
+- **Analysis-server** — We have also improved the analysis server. This shows the overall network status and has a brand new section showing the overall network consensus — a real-time update on the FPC outcome on each conflict. These results are stored on a database so that, together with our community, we can gather enough experimental data to compare with our previous results obtained through [simulations](https://arxiv.org/abs/1911.08787).
 -->
 Pollenのコアはこれらの機能で構成されています。
 
@@ -124,16 +124,16 @@ Pollenのコアはこれらの機能で構成されています。
 We have written a wiki to give the community an opportunity to test out and learn more about this version of the Pollen Testnet:
 
 - Client Library
-- Interaction with layers (HTTP API)
+- [Interaction with layers (HTTP API)](https://github.com/iotaledger/goshimmer/wiki/Client-Lib:-Interaction-with-layers)
 - Tutorials
-- Setup a GoShimmer node
-- Setup monitoring dashboard
-- Writing a dApp
-- Obtain tokens from the faucet
-- Use the wallet library
+- [Setup a GoShimmer node](https://github.com/iotaledger/goshimmer/wiki/Setup-up-a-GoShimmer-node-(Joining-the-pollen-testnet))
+- [Setup monitoring dashboard](https://github.com/iotaledger/goshimmer/wiki/Setting-up-Monitoring-Dashboard)
+- [Writing a dApp](https://github.com/iotaledger/goshimmer/wiki/How-to-create-a-simple-dApp)
+- [Obtain tokens from the faucet](https://github.com/iotaledger/goshimmer/wiki/How-to-obtain-tokens-from-the-faucet)
+- [Use the wallet library](https://github.com/iotaledger/goshimmer/wiki/The-wallet-library)
 - Concepts
-- Glossary
-- Layers
+- [Glossary](https://github.com/iotaledger/goshimmer/wiki/Glossary)
+- [Layers](https://github.com/iotaledger/goshimmer/wiki/Layers)
 -->
 コミュニティでPallenテストネットのこのバージョンをテストして詳細を学ぶ機会を与えるためにwikiを作成しました。
 

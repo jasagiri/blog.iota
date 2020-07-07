@@ -49,12 +49,12 @@ MAM v0と比較して、いくつかの変更点をまとめます（Michele Nat
 - **メッセージのシーケンス** -- MAM v0では、メッセージを新しいメッセージで無効化するには、新しいチャネルを作成する必要があり、アプリケーションレベルでの複雑さが増していました。IOTA Streamsでは、既存のチャネル内の以前のメッセージを修正することができ、古いメッセージは完全性を保証するためにTangleに残りますが、アプリケーションは最新の有効なメッセージのみを直接取得できます。これにより、資格情報のような情報の置き換えや変更が依然よりもはるかに簡単になりました。例えば、デジタルIDにリンクされた資格情報を更新する場合、以前のMAMで行ったように新しいチャネルとIDを作成する必要はありません。
 
 <!--
-To test some of the functionality yourself, see the **Streams repository** on our Github. As we progress with the implementation and finalize the functionality, we will be working on more comprehensive examples and scenarios in our documentation.
+To test some of the functionality yourself, see the **Streams [repository](https://github.com/iotaledger/streams)** on our Github. As we progress with the implementation and finalize the functionality, we will be working on more comprehensive examples and scenarios in our documentation.
 -->
 機能の一部を自分でテストするには、Githubの**Strems リポジトリ**を参照してください。実装が進み、機能が完成するにつれて、より包括的な例やシナリオをドキュメントにまとめていく予定です。
 
 <!--
-We’d like to take this opportunity to gather feedback, and then adjust the specification and implementation as necessary to then follow up with a full Rust and C implementations, as defined in our roadmap.
+We’d like to take this opportunity to gather feedback, and then adjust the specification and implementation as necessary to then follow up with a full Rust and C implementations, as defined in our [roadmap](https://roadmap.iota.org/).
 -->
 この機会にフィードバックを集め、必要に応じて仕様や実装を調整し、ロードマップで定義されているRustとCの完全な実装をフォローしていきたいと考えています。
 

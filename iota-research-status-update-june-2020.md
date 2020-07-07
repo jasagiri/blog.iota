@@ -7,7 +7,7 @@ Follow
 Jun 18 · 5 min read
 
 <!--
-We have a few exciting status updates to share with everyone this month: First, the new GoShimmer release v0.2.0 is planned for the end of June. We consider this release to be a significant milestone, as it will support value transactions and conflict resolution via FPC for the first time. It will also include updates such as a different transaction layout, UTXO, support for “parallel-reality” ledger states, binary (encoding, cryptographic signatures and hash functions), new APIs and more. GoShimmer is designed with modularity at its core, which has greatly simplified the process of enriching it with these additional features and modules.
+We have a few exciting status updates to share with everyone this month: First, the new GoShimmer release v0.2.0 is planned for the end of June. We consider this release to be a significant milestone, as it will support value transactions and conflict resolution via FPC for the first time. It will also include updates such as a different transaction layout, UTXO, support for [“parallel-reality”](https://iota.cafe/t/parallel-reality-based-ledger-state-using-utxo/261) ledger states, binary (encoding, cryptographic signatures and hash functions), new APIs and more. GoShimmer is designed with modularity at its core, which has greatly simplified the process of enriching it with these additional features and modules.
 -->
 今月はいくつかのエキサイティングなステータスアップデートを皆さんと共有したいと思います。まず、新しいGoShimmerのリリースv0.2.0が6月末に予定されています。このリリースは重要なマイルストーンと考えており、FPCを介した価値取引と競合解決を初めてサポートします。また、異なるトランザクションレイアウト、UTXO、「パラレルリアリティ」台帳状態のサポート、バイナリ（エンコーディング、暗号署名、ハッシュ関数）、新しいAPIなどのアップデートも含まれています。GoShimmerはモジュール性を核に設計されており、これらの追加機能やモジュールを使ってGoShimmerを充実させるプロセスを大幅に簡略化しています。
 
@@ -34,7 +34,7 @@ This month we have also been working on the new APIs for issuing value transacti
 今月は、値トランザクションの発行や、指定されたアドレスの残高を取得するための新しいAPIにも取り組んできました。これらのAPIは、現在取り組んでいる非常にシンプルなウォレットの中核になります。
 
 <!--
-As everything is now based on binary, we have developed a new configurable Proof of Work (PoW) library that will, in future and iterative releases, shift towards our adaptive PoW.
+As everything is now based on binary, we have developed a new configurable Proof of Work (PoW) library that will, in future and iterative releases, shift towards our [adaptive PoW](https://blog.iota.org/whos-in-who-s-out-a-rate-control-algorithm-for-the-tangle-c7b5ecf85677).
 -->
 現在、すべてがバイナリをベースにしているため、将来の反復リリースで[適応PoW](https://blog.iota.org/whos-in-who-s-out-a-rate-control-algorithm-for-the-tangle-c7b5ecf85677)に移行する新しい設定可能な作業証明（PoW）ライブラリを開発しました。
 
@@ -44,12 +44,12 @@ Finally, a large amount of our time has been spent on developing and improving b
 最後に、大量の時間をユニットテストと統合テストの両方の開発と改善に費やしました。この作業は退屈な作業ですが、コードが期待通りに動作することを確認するだけでなく、いくつかの部分を改善したり、他のチームメンバーが書いたコードについてより深く知ることができました。
 
 <!--
-**FPC**. We have just published a conference paper on how mana is implemented in FPC; the paper will be presented at FTC2020. Moreover, we finished a short research note that investigates effects that may arise from weighted voting such as loss of anonymity, centralization, and scalability while discussing their relevance to protocol design and implementation.
+**FPC**. We have just published a conference [paper](https://arxiv.org/abs/2006.00928) on how mana is implemented in FPC; the paper will be presented at [FTC2020](https://saiconference.com/FTC). Moreover, we finished a short research note that investigates effects that may arise from weighted voting such as loss of anonymity, centralization, and scalability while discussing their relevance to protocol design and implementation.
 -->
 **FPC**。この[論文](https://arxiv.org/abs/2006.00928)はFTC2020で発表される予定です。また匿名性の損失、集中化、スケーラービリティなど、加重投票によって生じる可能性のある影響を調査し、プロトコル設計や実装との関連性を議論した短い研究ノートを完成させました。
 
 <!--
-**Networking**. Two manuscripts have been submitted and are currently under review for a top-level international conference: (i) “On Congestion Control for Distributed Ledgers in Adversarial IoT Networks” presents our current proposal to deal with network congestion, and shows the results of our simulations; (ii) “Preventing Denial of Service Attacks in IoT Networks through Verifiable Delay Functions” describes how verifiable delay functions can be used to replace PoW as a rate-limiting mechanism, and shows an actual implementation on Raspberry Pi and standard laptops.
+**Networking**. Two manuscripts have been submitted and are currently under review for a top-level international conference: (i) [“On Congestion Control for Distributed Ledgers in Adversarial IoT Networks”](https://arxiv.org/abs/2005.07778) presents our current proposal to deal with network congestion, and shows the results of our simulations; (ii) [“Preventing Denial of Service Attacks in IoT Networks through Verifiable Delay Functions”](https://arxiv.org/abs/2006.01977) describes how verifiable delay functions can be used to replace PoW as a rate-limiting mechanism, and shows an actual implementation on Raspberry Pi and standard laptops.
 -->
 **ネットワーキング**。2つの論文が提出され、現在、最上位の国際会議で審査中です。(i)[「敵対IoTネットワークにおける分散型台帳の渋滞制御について」](https://arxiv.org/abs/2005.07778)はネットワークの渋滞に対処するための現在の提案を提示し、シミュレーションの結果を示しています。(ii)[「検証可能な遅延機能によるIoTネットワークでのサービス拒否攻撃の防止」](https://arxiv.org/abs/2006.01977)では、検証可能な遅延機能を利用してレート制御アルゴリズムとしてPoWを置き換える方法を説明し、Raspberry Piと標準のラップトップで実際の実装を示します。
 
@@ -89,7 +89,7 @@ With the research on the protocol nearly concluded, the specs are being written 
 プロトコルの研究がほぼ終了したため、仕様書を作成しており、順調に進んでいます。近日中に完成し、エンジニアリングチームにフィードバックされる予定です。
 
 <!--
-We look forward to the coming GoShimmer release, and we hope that you are able to participate in the early community testing. Until our next monthly update, you can stay up to date with the IOTA Research team in the #tanglemath channel on our Discord. You are also welcome to follow and participate in our technical discussions on our public forum: IOTA.cafe.
+We look forward to the coming GoShimmer release, and we hope that you are able to participate in the early community testing. Until our next monthly update, you can stay up to date with the IOTA Research team in the #tanglemath channel on our Discord. You are also welcome to follow and participate in our technical discussions on our public forum: [IOTA.cafe](https://iota.cafe/).
 -->
 GoShimmerのリリースを楽しみにしています。次回の月例アップデートまで、IOTA Researchチームの最新情報はDiscordの#tanglemathチャネルで確認できます。また、公開フォーラム:IOTA.cafeでの技術的な議論をフォローしたり、参加することも歓迎します。
 

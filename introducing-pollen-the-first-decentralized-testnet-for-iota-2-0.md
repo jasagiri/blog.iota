@@ -162,7 +162,7 @@ PollenはIOTA2.0の主要なマイルストーンです。これはIOTAの完全
 <!--
 We look forward to taking you with us on this exciting journey with Pollen and we hope you will enjoy the development of this project as much as we do. As always, we welcome your comments and questions either here on Medium or in the #tanglemath channel on our Discord. You can also join in the #goshimmer-discussion on Discord.
 -->
-Pollenとこの駅さんティングな旅にご参加いただけることを楽しみにしています。このプロジェクトの開発を私たちと同じように楽しんでいただければ幸いです。いつものように、私たちは、ここMediumまたはDiscordの#tanglemathチャネルであなたのコメントと質問を歓迎します。Discordの#goshimmer-discussionに参加することもできます。
+Pollenとエキサイティングな旅にご参加いただけることを楽しみにしています。このプロジェクトの開発を私たちと同じように楽しんでいただければ幸いです。いつものように、私たちは、ここMediumまたはDiscordの#tanglemathチャネルであなたのコメントと質問を歓迎します。Discordの#goshimmer-discussionに参加することもできます。
 
 
 Iota

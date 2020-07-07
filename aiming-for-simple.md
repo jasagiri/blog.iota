@@ -55,7 +55,9 @@ The first products to be renamed will be:
 1 **IOTA Access**. This is a lightweight and highly flexible access-control framework and language for resource-constrained settings, such as embedded devices, allowing reliable and secure human-machine interactions.
 -->
 1 **IOTA Streams**。以前はMAM（Masked Authenticated Messaging）として知られており、多機能なレイヤー２プロトコルで様々な型のデータ転送（ストリーミングデータなど）に使用することができます。プロトコルは、より多くの柔軟性、機能性、使いやすさを可能にするために一から書き直されています。詳細は近日中に発表します。
+
 1 **IOTA Smart Contracts**。以前はQubicプロジェクトのサブドメインでしたが、今後はフラッグシッププロジェクトに昇格し、その存在感を発揮できるようになります。スマートコントラクト機能は、IOTAで最も要望の多い機能の一つです。
+
 1 **IOTA Access**。これは組み込み機器などのリソース制約のある設定のための軽量で柔軟性の高いアクセス制御フレームワークと言語であり、信頼性の高い安全なヒューマンインタラクションを可能にします。
 
 <!--

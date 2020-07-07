@@ -15,7 +15,7 @@ Pollen represents a major upgrade with respect to the previous Alphanet v0.1.3 r
 
 Today’s release includes the following main feature updates:
 
-- Fast Probabilistic Consensus — IOTA’s new consensus algorithm for a decentralized network. You can read the research paper here.
+- Fast Probabilistic Consensus — IOTA’s new consensus algorithm for a decentralized network. You can read the [research paper here](https://arxiv.org/abs/1905.10895).
 
 - Value Transactions — network participants can now use an automated faucet to receive tokens, send value transactions (via a wallet) and test conflict resolution on the network.
 

@@ -49,7 +49,9 @@ The first products to be renamed will be:
 
 <!--
 1 **IOTA Streams**. Previously known as MAM (Masked Authenticated Messaging), this is a multi-functional layer 2 protocol, which can be used for different types of data transmission (eg streaming data). The protocol has been rewritten from the ground up to allow a lot more flexibility, functionality and ease of use. More on this very soon.
+
 1 **IOTA Smart Contracts**. Previously a sub-domain of the Qubic project, this will now be elevated to a flagship project to give it the deserved visibility. Smart contract functionality is one of the most requested features on IOTA.
+
 1 **IOTA Access**. This is a lightweight and highly flexible access-control framework and language for resource-constrained settings, such as embedded devices, allowing reliable and secure human-machine interactions.
 -->
 1 **IOTA Streams**。以前はMAM（Masked Authenticated Messaging）として知られており、多機能なレイヤー２プロトコルで様々な型のデータ転送（ストリーミングデータなど）に使用することができます。プロトコルは、より多くの柔軟性、機能性、使いやすさを可能にするために一から書き直されています。詳細は近日中に発表します。

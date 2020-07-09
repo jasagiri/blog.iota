@@ -1,3 +1,5 @@
+https://iota.cafe/t/parallel-reality-based-ledger-state-using-utxo/261
+
 “Parallel reality” based ledger state (using UTXO) 
 
 Coordicide

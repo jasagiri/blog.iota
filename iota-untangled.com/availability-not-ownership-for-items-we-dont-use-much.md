@@ -1,3 +1,4 @@
+https://iota-untangled.com/availability-not-ownership-for-items-we-dont-use-much/
 
 # Availability – not ownership – for items we don’t use much
 By Hanna van Sambeek,Bas van Sambeek

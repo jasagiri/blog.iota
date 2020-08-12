@@ -18,7 +18,7 @@ Utopia in nature
 This is also how nature works. When animals go hunting in a group there is no middle and upper management making outrageous plans, taking notes of performance, sitting in their office working on a grand vision and mission. Everyone participates as best as they can. Everyone shares the food. The sick and weak are cared for, without exception. We are told nature is cruel to the weak and sick, but in reality this is quite far from the truth.
 
 A bigger piece of a smaller pie
-One way to create a fair machine to machine-ecosystem could be to look at a balanced natural ecosystem, showing what we want as a society, and transpose this onto human society. Nature shares, cooperates, adapts, use all available resources without monetary transactions. See for example how forests do it.
+One way to create a fair machine to machine-ecosystem could be to look at a balanced natural ecosystem, showing what we want as a society, and transpose this onto human society. Nature shares, cooperates, adapts, use all available resources without monetary transactions. See for [example](https://iota-untangled.com/nature-inspiration-worlds-largest-hackathon/) how forests do it.
 
 Natural ecosystems work for the greater good because it benefits the individual in the long term. Everybody gets a small piece of the pie, but the pie is much, much bigger.
 
@@ -35,6 +35,6 @@ When you’re designing your machine economy; your vision of a future ecosystem,
 Inspiration for Hackathon
 This post is part of a series providing inspiration from nature for participants at the Blockchaingers Hackathon, specifically for the Machine Economy track. Read more about:
 
-Biomimicry inspiration at the Deep Dive
-Importance of information in nature and in a Machine Economy
-Algorithms inspired by swarm behaviour
+- [Biomimicry inspiration at the Deep Dive](https://iota-untangled.com/nature-inspiration-worlds-largest-hackathon/)
+- [Importance of information in nature and in a Machine Economy](https://iota-untangled.com/biomimicry-information-machine-economy/)
+- [Algorithms inspired by swarm behaviour](https://iota-untangled.com/algorithms-inspired-swarm-behaviour/)

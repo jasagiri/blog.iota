@@ -1,6 +1,6 @@
 https://iota-untangled.com/implementation-feeless-transaction-system/
 
-Implementing a feeless transaction system
+# Implementing a feeless transaction system
 By Hanna van Sambeek  In Machine Economy  8 December 2017  4 Min read  1 comment 
 
 *One of the key features of IOTA is that there is no transaction fee. It is designed for micro transaction on the Internet of Things. This opens up a lot of possibilities (more on this in future posts).*
